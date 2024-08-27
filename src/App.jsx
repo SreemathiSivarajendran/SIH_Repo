@@ -1,5 +1,5 @@
 import JobList from './components/JobList'
-import '../App.css'
+import './App.css'
 import './index.css'
 
 function App() {

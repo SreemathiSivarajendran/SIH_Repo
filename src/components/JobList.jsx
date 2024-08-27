@@ -1,6 +1,7 @@
 
-import {jobData} from "../jobsData"
-import JobsCard from "./JobsCard"
+import {JOBS} from "../jobsData";
+import JobsCard from "./JobsCard";
+import '../App.css'
 
 const JobList = () => {
    
@@ -8,7 +9,7 @@ const JobList = () => {
     return(
         <>
             <div className="job-list">
-                {jobData.map(job => (
+                {JOBS.map((job)=> (
                     <JobsCard key={job.id} job={job} />
                 ))}
             </div>

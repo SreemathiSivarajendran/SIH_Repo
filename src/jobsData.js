@@ -1,27 +1,6 @@
-// export const jobData = [
-//     {
-//       id: 1,
-//       title: "Software Engineer",
-//       company: "TechCorp",
-//       location: "New York, NY",
-//       description: "Develop and maintain software solutions...",
-//       requirements: "2+ years of experience in software development...",
-//       postedDate: "2024-08-01"
-//     },
-//     {
-//       id: 2,
-//       title: "Product Manager",
-//       company: "InnovateX",
-//       location: "San Francisco, CA",
-//       description: "Lead product teams to build innovative solutions...",
-//       requirements: "5+ years of experience in product management...",
-//       postedDate: "2024-08-05"
-//     },
-    
-//   ];
-  
 
-export const jobData = [
+
+export const JOBS = [
   {
       id: 1,
       title: "Software Engineer",
